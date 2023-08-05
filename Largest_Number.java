@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Largest_Number {
     public static int largestNumber(int numbers[]) {
         int Largest = Integer.MIN_VALUE; // - infinity
