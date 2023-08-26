@@ -7,11 +7,11 @@ public class array_by_referance {
     }
 
     public static void main(String[] args) {
-        int marks[] = { 10, 20, 30 };
+        int marks[] = { 10, 20, 30, 50 };
 
         // array_by_referance.update(marks);
         // or update(marks) this are same
-        
+
         update(marks);
         for (int i = 0; i < marks.length; i++) {
             System.out.println(marks[i]);
